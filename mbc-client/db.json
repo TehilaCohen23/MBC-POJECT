@@ -1,0 +1,101 @@
+{
+  "users": [
+    {
+      "name": "Tehila",
+      "email": "tehila@mail.com",
+      "password": "123456",
+      "isBusiness": false,
+      "id": 1
+    },
+    {
+      "email": "ayala@mail.com",
+      "password": "123456",
+      "name": "Ayala Cohen",
+      "isBusiness": true,
+      "id": 2
+    },
+    {
+      "email": "Meir@gmail.com",
+      "password": "123456",
+      "name": "Meir Cohen",
+      "bName": "ELAL",
+      "isBusiness": true,
+      "id": 3
+    }
+  ],
+  "cards": [
+    {
+      "id": 1,
+      "name": "knesset",
+      "description": "The Knesset of Israel",
+      "address": "Jerusalem, Israel",
+      "phone": "02-0000065",
+      "image": "https://m.knesset.gov.il/About/PublishingImages/LobbyAbout/LobbyAboutBuilding.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Node JS",
+      "description": "Node.js® is an open-source, cross-platform JavaScript runtime environment.",
+      "address": "Israel",
+      "phone": "02-0000004",
+      "image": "https://images.ctfassets.net/aq13lwl6616q/7cS8gBoWulxkWNWEm0FspJ/c7eb42dd82e27279307f8b9fc9b136fa/nodejs_cover_photo_smaller_size.png?w=700&fm=webp"
+    },
+    {
+      "name": "Visual Studio Code",
+      "description": "Visual Studio Code is a lightweight but powerful source code editor...",
+      "address": "U.S.A.",
+      "phone": "013-9998856652",
+      "image": "https://www.tmssoftware.com/images/visualstudiocodelogo.png",
+      "id": 3
+    },
+    {
+      "id": 4,
+      "name": "ELAL",
+      "description": "\"הכי בבית בעולם\"",
+      "address": "Israel",
+      "phone": "06-0000001",
+      "image": "https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco,dpr_1/v1431080712/ggvnxhumyij7ccihgckr.png"
+    },
+    {
+      "name": "Swiss",
+      "description": "© Swiss International Air Lines",
+      "address": "Germany",
+      "phone": "013-9998856652",
+      "image": "https://www.swiss.com/etc/designs/dcep/logo-lx-og.jpg",
+      "id": 5
+    },
+    {
+      "name": "Express",
+      "description": "Fast, unopinionated, minimalist web framework for Node.js",
+      "address": "express.com",
+      "phone": "01-888999999",
+      "image": "https://expressjs.com/images/express-facebook-share.png",
+      "id": 6
+    }
+  ],
+  "usersAccounts": [
+    {
+      "userId": 1,
+      "userCards": [],
+      "id": 1
+    },
+    {
+      "userId": 2,
+      "userCards": [
+        1,
+        2,
+        3,
+        6
+      ],
+      "id": 2
+    },
+    {
+      "userId": 3,
+      "userCards": [
+        4,
+        5
+      ],
+      "id": 3
+    }
+  ]
+}
